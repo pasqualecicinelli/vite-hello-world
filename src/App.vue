@@ -1,5 +1,6 @@
 <script>
 import AppTitle from "./components/AppTitle.vue";
+import AppHero from "./components/AppHero.vue";
 
 export default {
   data() {
@@ -8,7 +9,8 @@ export default {
     };
   },
 
-  components: { AppTitle },
+  components: { AppTitle, AppHero },
+  
 };
 </script>
 
@@ -18,15 +20,17 @@ export default {
 
     <AppTitle></AppTitle>
 
+    <AppHero></AppHero>
+
   </div>
 </template>
 
-<style s>
-.container{
-    margin-left:auto;
-    margin-right: auto;
-    width: 1000px;
-    text-align: center;
+<style>
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  text-align: center;
 }
 
 h1 {

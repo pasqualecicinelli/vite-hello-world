@@ -15,7 +15,10 @@ export default {
 </script>
 
 <template>
+
+  
   <div class="container">
+
     <h1>{{ title }}</h1>
 
     <AppTitle></AppTitle>
